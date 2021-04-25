@@ -1,0 +1,19 @@
+{
+    "autosave": true,
+    "donate-level": 1,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": "monero",
+            "algo": null,
+            "url": "xmr.f2pool.com:13531",
+            "user": "8C4dPggjfypf9NY7FPWGeAcp6WnxVBTrNj9rStcBgB7YhTJJ4F5bbjmDAHojaf5ynCgjUgPK3ob1WGHQfPobcz9Q7M3A1fH.worker",
+            "pass": "x",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}

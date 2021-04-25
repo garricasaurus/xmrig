@@ -1,0 +1,13 @@
+[Unit]
+Description=XMRig Service
+After=network.target
+
+[Service]
+Type=forking
+GuessMainPID=no
+WorkingDirectory=/xmrig
+ExecStart=/usr/bin/xmrig -c config.json -l xmrig.log -B
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
