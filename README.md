@@ -18,6 +18,12 @@ sudo mv xmrig /usr/bin/xmrig
 sudo git clone https://github.com/garricasaurus/xmrig
 ```
 
+### edit worker name
+
+```
+sed -i 's/.worker/.<NAME>/g' xmrig/config.json
+```
+
 ### setup config & log location
 
 ```
