@@ -15,7 +15,7 @@ sudo mv xmrig /usr/bin/xmrig
 ### clone the repository
 
 ```
-sudo git clone https://github.com/garricasaurus/xmrig
+git clone https://github.com/garricasaurus/xmrig
 ```
 
 ### edit worker name
