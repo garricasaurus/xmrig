@@ -23,7 +23,7 @@ sudo git clone https://github.com/garricasaurus/xmrig
 ```
 sudo mkdir -p /var/lib/xmrig
 sudo mkfir -p /var/log/xmrig
-sudo mv xmrig/config.json /var/lib/xmrig
+sudo cp xmrig/config.json /var/lib/xmrig
 ```
 
 ### enable & start the systemd service
