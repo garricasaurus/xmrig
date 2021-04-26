@@ -28,7 +28,7 @@ sed -i 's/.worker/.<NAME>/g' xmrig/config.json
 
 ```
 sudo mkdir -p /var/lib/xmrig
-sudo mkfir -p /var/log/xmrig
+sudo mkdir -p /var/log/xmrig
 sudo cp xmrig/config.json /var/lib/xmrig
 ```
 
